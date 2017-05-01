@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<header>
+  <h1>Index</h1>
+</header> 
+<section>
+  {% for post in site.posts %}
+    <article>
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <time>{{ post.date | date: "%d.%m.%Y" }}</time>
+      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Czytaj więcej</a></p>
+    </article>  
+  {% endfor %}
+</section>

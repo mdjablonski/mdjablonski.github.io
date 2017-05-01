@@ -1,0 +1,12 @@
+# Site settings
+
+title: mdjablonski.github.io
+description: "o projektowaniu interfejsów, analityce i narzędziach z tym związanych"
+meta_description: "meta is so yarly: user experience, ux, user interface, google analytics, design"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mdjablonski.github.io" # the base hostname & protocol for your site
+permalink:       /:year-:month-:day/:title
+
+# Build settings
+markdown: kramdown

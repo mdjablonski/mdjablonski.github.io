@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<header>
+  <h1 itemprop="name headline">{{ page.title }}</h1>
+  <time itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>
+</header> 
+<section>
+    <article itemscope itemprop="articleBody">
+      {{ content }}
+    </article>  
+</section>
+

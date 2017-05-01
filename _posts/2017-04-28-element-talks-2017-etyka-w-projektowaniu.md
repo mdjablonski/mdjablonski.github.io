@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Element Talks 2017 – pięć wykładów, na których warto było być"
+date:   2017-05-01
+---
+
+Czwarta edycja Element Talks zakończona. Ponad dwa tysiące uczestników i sporo tematów związanych z rozpoczynaniem kariery oraz user experience.
+
+
+{% include image.html path="/images/element-talsk-2017.jpg" description="Element Talks 2017" caption="Tekturowe identyfikatory :)" %}
+
+Tak duża liczba uczestników i atrakcyjna cena biletów to na pewno nie koincydencja. Bilet dwudniowy z puli regularnej sprzedaży to koszt 279 zł. To się ceni i jest warte odnotowania, z uwagi na klimatyczne miejsce jakim jest praskie Soho, dobrą organizację i prelegentów. Organizacyjnie na pochwałę zasługuje to, że konferencja była także dostępna dla głuchoniemych poprzez tłumaczy języka migowego oraz dla osób nieznających angielskiego (tłumaczenia symultaniczne). Jak widać można zrobić konferencję bez kosmopolitycznego kompleksu. Miło.
+
+Z poziomem wykładów bywało już różnie. Część prelegentów nie znała swoich slajdów, inni prezentowali w stylu TEDa (podniosły ton prawdy objawionej), co nijak pasowało do jasnej sceny i dochodzącego gwaru z zewnątrz. Prezentowanie user experience design jako szalonej zabawy pełnej nindżów pominę milczeniem. Na pewno odnaleźli się ci, którzy szukali odpowiedzi na pytania: jak zacząć, co robić, jak wyceniać projekty, jak żyć. Jeżeli stworzyć starter pack dla wchodzących w projektowanie, to Element Talks się w nim znajdzie.
+
+## Rene Wawrzkiewicz
+
+_„Z" czy „dla"? - projektowanie bardzo kulturalne_
+
+Współzałożyciel Mamastudio, obecnie związany z Teatrem Studio. Opowiedział o współpracy z instytucjami kultury i specyfice pracy z tym związanej. Przemycił także kilka wartościowych prawd, które będą przydatne dla wchodzących do branży projektowania dla kultury:
+
+- instytucje państwowe mają duże i stabilne budżety, organizacje NGO zazwyczaj małe i niepewne;
+- zleceniodawcą jest dział marketingu, który nie wie o istnieniu behance czy dribble (polecenia i zaufanie mają tu większe znaczenie niż setki serduszek pod ghostem na dribble);
+- stała współpraca jest ważniejsza od większych zastrzyków gotówki za jednorazowe projekty (czyli budowanie relacji);
+- trzeba interesować się sztuką, dla której się projektuje (nie bądź ignorantem).
+
+Może brzmią jak truizmy, ale warto to usłyszeć na początku swojej drogi.
+
+## Carola Seybold
+
+_Jak kolor wpływa na sukces marki?_
+
+Seybold jest szefową działu Business Development w PANTONE LLC na Europę, Bliski Wschód i Afrykę. Prezentację poświęciła (co dosyć oczywiste) kolorom i ich postrzeganiu. Jedne z ciekawszych slajdów to zdjęcia prezentujące jak kolor zmienia się zależnie od oświetlenia (na marginesie: kojarzy mi się to problemem projektowania grafiki komputerowej na monitorach dobrej jakości, a następnie wyświetlanej na standardowych korporacyjnych laptopach, gdzie szarość zamienia się w róż). Poza postrzeganiem kolorów, mowa była także o ich uwarunkowaniach prawnych. Każda duża marka ma swoje zastrzeżone kolory, które wywołują automatyczne z nią skojarzenie (najpierw rozpoznajemy kolor, później tekst). Dlatego używając kolorów należy pamiętać, że np. róż T-Mobile jest zastrzeżony, tak samo jak [żółty kolor](http://www.3mproductivity.com/IDCSalesCentral/SOSD_Brand_Guidelines_QuickReferenceGuides_02.29.16.pdf) karteczek Post-it.
+
+{% include image.html path="/images/Pantone_Color_of_the_Year_Greenery.jpg" description="Greenery 15-0343, Color of the Year. Source: https://www.pantone.com/color-of-the-year-2017-color-standards" caption="Kolor roku 2017 według Pantone: Greenery 15-0343. Źródło: www.pantone.com" %}
+
+## Michał Sadowski
+
+_Jak zdobyć i utrzymać klientów w sieci?_
+
+Zaskakującą jak na tematykę konferencji prezentację miał Michał Sadowski z [brand24](https://brand24.pl/). Nie było stricte o designie, ale o wnioskach z analityki internetowej i ich przełożeniu na interfejs w celu wzrostu konwersji i polepszenia user experience. Warte odnotowania są narzędzia, z których korzystają w brand24 (poza standardowym Google Analyticsem):
+
+- [Appcues](https://www.appcues.com/) – narzędzie do onbordingu w stylu Slacka, czyli przewodnik krok po kroku dla nowego użytkownika;
+- [Cluify](http://cluify.com/) – polskie narzędzie do analizowania zachowania klientów offline;
+- [Cux.io](http://cux.io/) – analiza przepływ użytkowników w witrynie, także polski produkt.
+
+Propsy za wspomnienie o nich, podzielenie się swoim zestawem narzędzi. Jedyne co mógłbym zasugerować Michałowi to rezygnację z gifów w prezentacji. One już nie śmieszą ;)
+
+## Eric Kessels
+
+_Błędy, które zmieniają świat_
+
+W zupełnie innym tonie prezentował [Erik Kessels](http://www.kesselskramer.com/), autor [książki](http://www.bookoff.pl/product-pol-21536-Failed-it-How-to-turn-mistakes-into-ideas-and-other-advice-for-successfully-screwing-up.html) o tym jak zmienić głupie błędy w ciekawe pomysły. Jak dla mnie najlepszy wykład konferencji. Trudny do opisania, klimat oddaje poniższa grafika Kesselsa. Jeżeli ktoś chce więcej niech szuka w internecie [Hans Brinker Budget Hotel](https://duckduckgo.com/?q=hans+brinker+budget+hotel&t=ffab&iar=images&iax=1&ia=images). Dodatkowo wspomnę, że takiej [liczby kutasów](http://kesselskramerpublishing.com/catalogue/useful-photography-13/) na jednej prezentacji nie widziałem do tej pory ;)
+
+{% include image.html path="/images/Hans-Brinker-Budget-Hotel.jpg" description="Hans Brinker Budget Hotel. It cant's get any worse. But we'll do our best. Source: http://www.typotalks.com/news/2012/08/17/four-or-so-questions-to-erik-kessels/" caption="Reklama niskobudżetowego hotelu w Amsterdamie. Źródło: www.typotalks.com" %}
+
+## Mike Monteiro
+
+_Jak walczyć z faszyzmem?_
+
+Prelegentem, na którego większość czekała, był Mike Monteiro, założyciel i projektant [Mule Design](http://muledesign.com/). Uderzył mocno, nie przebierał w słowach, czyli tak jak na twitterze. Przepuszczając przez filtr formę prezentacji i  słownictwo, przekaz Monteiro był jasny – projektowanie ma wpływ na rzeczywistość, dlatego powinniśmy robić to odpowiedzialnie, a w skrajnych przypadkach odmawiać. Jest z tych gości, którzy traktują projektowanie na serio. Kategorycznie wypowiada się o Travisie Kalanicku (CEO Ubera), wyśmiewa oszustwo związane z [sharing economy](https://en.wikipedia.org/wiki/Sharing_economy) (zabawne, że w tym samym czasie w Polsce trwa dalej nuworyszowski zachwyt nad unikaniem opodatkowania, licencji i przepisów).
+
+{% include image.html path="/images/monteiro-element-talk-2017.jpg" description="Mike Monteiro, Jak walczyć z faszyzmem. Slajd 'No, THEY, live in a bubble'." caption="Polityka i design zawsze się idą w parze." %}
+
+Zniechęcająca mogła być forma jego prezentacji, a właściwie kazania ze sceny. Oraz to, że temat, który porusza, jest mocną agitacją i przedstawieniem kolejny raz prywatnych poglądów na politykę w USA. Jeżeli w branży user experience mamy zauważalną nadwyżkę projektantów z przerostem ego, to tutaj już mamy do czynienia z prorokiem.
+
+## Następna edycja?
+
+Tak jak wcześniej wspomniałem, na Element Talks warto się wybrać. Trzeba jednak mieć trochę szczęścia, aby nie trafić na prezentację, w której prelegent kończy 20 minut przed czasem i nie wie co robić dalej. Na szczęście były stoiska z dobrym jedzeniem, kawą. Było także bardzo dużo uczestników imprezy, wśród których można było spotkać dawno niewidzianych znajomych :)
+
+Coś, co mógłbym zasugerować organizatorkom, to zwracanie uwagi na problemy na scenie. Jeżeli kolejna osoba na scenie pyta się o to ile jeszcze ma czasu do końca, to znaczy, że informacja o tym jest potrzebna także następnym prelegentom ;) Druga sprawa to oświetlenie mówcy, które jednocześnie oświetla ekran za nim. Ale to już do poprawienia w następnej edycji.

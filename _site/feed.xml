@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mdjablonski.github.io</title>
+    <description>o projektowaniu interfejsów, analityce i narzędziach z tym związanych</description>
+    <link>https://mdjablonski.github.io/</link>
+    <atom:link href="https://mdjablonski.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 May 2017 21:12:48 +0200</pubDate>
+    <lastBuildDate>Mon, 01 May 2017 21:12:48 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Element Talks 2017 – pięć wykładów, na których warto było być</title>
+        <description>&lt;p&gt;Czwarta edycja Element Talks zakończona. Ponad dwa tysiące uczestników i sporo tematów związanych z rozpoczynaniem kariery oraz user experience.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/element-talsk-2017.jpg&quot; alt=&quot;Element Talks 2017&quot; title=&quot;Tekturowe identyfikatory :)&quot; /&gt;
+  &lt;figcaption&gt;&lt;small&gt;Tekturowe identyfikatory :)&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Tak duża liczba uczestników i atrakcyjna cena biletów to na pewno nie koincydencja. Bilet dwudniowy z puli regularnej sprzedaży to koszt 279 zł. To się ceni i jest warte odnotowania, z uwagi na klimatyczne miejsce jakim jest praskie Soho, dobrą organizację i prelegentów. Organizacyjnie na pochwałę zasługuje to, że konferencja była także dostępna dla głuchoniemych poprzez tłumaczy języka migowego oraz dla osób nieznających angielskiego (tłumaczenia symultaniczne). Jak widać można zrobić konferencję bez kosmopolitycznego kompleksu. Miło.&lt;/p&gt;
+
+&lt;p&gt;Z poziomem wykładów bywało już różnie. Część prelegentów nie znała swoich slajdów, inni prezentowali w stylu TEDa (podniosły ton prawdy objawionej), co nijak pasowało do jasnej sceny i dochodzącego gwaru z zewnątrz. Prezentowanie user experience design jako szalonej zabawy pełnej nindżów pominę milczeniem. Na pewno odnaleźli się ci, którzy szukali odpowiedzi na pytania: jak zacząć, co robić, jak wyceniać projekty, jak żyć. Jeżeli stworzyć starter pack dla wchodzących w projektowanie, to Element Talks się w nim znajdzie.&lt;/p&gt;
+
+&lt;h2 id=&quot;rene-wawrzkiewicz&quot;&gt;Rene Wawrzkiewicz&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;„Z” czy „dla”? - projektowanie bardzo kulturalne&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Współzałożyciel Mamastudio, obecnie związany z Teatrem Studio. Opowiedział o współpracy z instytucjami kultury i specyfice pracy z tym związanej. Przemycił także kilka wartościowych prawd, które będą przydatne dla wchodzących do branży projektowania dla kultury:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;instytucje państwowe mają duże i stabilne budżety, organizacje NGO zazwyczaj małe i niepewne;&lt;/li&gt;
+  &lt;li&gt;zleceniodawcą jest dział marketingu, który nie wie o istnieniu behance czy dribble (polecenia i zaufanie mają tu większe znaczenie niż setki serduszek pod ghostem na dribble);&lt;/li&gt;
+  &lt;li&gt;stała współpraca jest ważniejsza od większych zastrzyków gotówki za jednorazowe projekty (czyli budowanie relacji);&lt;/li&gt;
+  &lt;li&gt;trzeba interesować się sztuką, dla której się projektuje (nie bądź ignorantem).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Może brzmią jak truizmy, ale warto to usłyszeć na początku swojej drogi.&lt;/p&gt;
+
+&lt;h2 id=&quot;carola-seybold&quot;&gt;Carola Seybold&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Jak kolor wpływa na sukces marki?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Seybold jest szefową działu Business Development w PANTONE LLC na Europę, Bliski Wschód i Afrykę. Prezentację poświęciła (co dosyć oczywiste) kolorom i ich postrzeganiu. Jedne z ciekawszych slajdów to zdjęcia prezentujące jak kolor zmienia się zależnie od oświetlenia (na marginesie: kojarzy mi się to problemem projektowania grafiki komputerowej na monitorach dobrej jakości, a następnie wyświetlanej na standardowych korporacyjnych laptopach, gdzie szarość zamienia się w róż). Poza postrzeganiem kolorów, mowa była także o ich uwarunkowaniach prawnych. Każda duża marka ma swoje zastrzeżone kolory, które wywołują automatyczne z nią skojarzenie (najpierw rozpoznajemy kolor, później tekst). Dlatego używając kolorów należy pamiętać, że np. róż T-Mobile jest zastrzeżony, tak samo jak &lt;a href=&quot;http://www.3mproductivity.com/IDCSalesCentral/SOSD_Brand_Guidelines_QuickReferenceGuides_02.29.16.pdf&quot;&gt;żółty kolor&lt;/a&gt; karteczek Post-it.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/Pantone_Color_of_the_Year_Greenery.jpg&quot; alt=&quot;Greenery 15-0343, Color of the Year. Source: https://www.pantone.com/color-of-the-year-2017-color-standards&quot; title=&quot;Kolor roku 2017 według Pantone: Greenery 15-0343. Źródło: www.pantone.com&quot; /&gt;
+  &lt;figcaption&gt;&lt;small&gt;Kolor roku 2017 według Pantone: Greenery 15-0343. Źródło: www.pantone.com&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;michał-sadowski&quot;&gt;Michał Sadowski&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Jak zdobyć i utrzymać klientów w sieci?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Zaskakującą jak na tematykę konferencji prezentację miał Michał Sadowski z &lt;a href=&quot;https://brand24.pl/&quot;&gt;brand24&lt;/a&gt;. Nie było stricte o designie, ale o wnioskach z analityki internetowej i ich przełożeniu na interfejs w celu wzrostu konwersji i polepszenia user experience. Warte odnotowania są narzędzia, z których korzystają w brand24 (poza standardowym Google Analyticsem):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.appcues.com/&quot;&gt;Appcues&lt;/a&gt; – narzędzie do onbordingu w stylu Slacka, czyli przewodnik krok po kroku dla nowego użytkownika;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cluify.com/&quot;&gt;Cluify&lt;/a&gt; – polskie narzędzie do analizowania zachowania klientów offline;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cux.io/&quot;&gt;Cux.io&lt;/a&gt; – analiza przepływ użytkowników w witrynie, także polski produkt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Propsy za wspomnienie o nich, podzielenie się swoim zestawem narzędzi. Jedyne co mógłbym zasugerować Michałowi to rezygnację z gifów w prezentacji. One już nie śmieszą ;)&lt;/p&gt;
+
+&lt;h2 id=&quot;eric-kessels&quot;&gt;Eric Kessels&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Błędy, które zmieniają świat&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;W zupełnie innym tonie prezentował &lt;a href=&quot;http://www.kesselskramer.com/&quot;&gt;Erik Kessels&lt;/a&gt;, autor &lt;a href=&quot;http://www.bookoff.pl/product-pol-21536-Failed-it-How-to-turn-mistakes-into-ideas-and-other-advice-for-successfully-screwing-up.html&quot;&gt;książki&lt;/a&gt; o tym jak zmienić głupie błędy w ciekawe pomysły. Jak dla mnie najlepszy wykład konferencji. Trudny do opisania, klimat oddaje poniższa grafika Kesselsa. Jeżeli ktoś chce więcej niech szuka w internecie &lt;a href=&quot;https://duckduckgo.com/?q=hans+brinker+budget+hotel&amp;amp;t=ffab&amp;amp;iar=images&amp;amp;iax=1&amp;amp;ia=images&quot;&gt;Hans Brinker Budget Hotel&lt;/a&gt;. Dodatkowo wspomnę, że takiej &lt;a href=&quot;http://kesselskramerpublishing.com/catalogue/useful-photography-13/&quot;&gt;liczby kutasów&lt;/a&gt; na jednej prezentacji nie widziałem do tej pory ;)&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/Hans-Brinker-Budget-Hotel.jpg&quot; alt=&quot;Hans Brinker Budget Hotel. It cant&#39;s get any worse. But we&#39;ll do our best. Source: http://www.typotalks.com/news/2012/08/17/four-or-so-questions-to-erik-kessels/&quot; title=&quot;Reklama niskobudżetowego hotelu w Amsterdamie. Źródło: www.typotalks.com&quot; /&gt;
+  &lt;figcaption&gt;&lt;small&gt;Reklama niskobudżetowego hotelu w Amsterdamie. Źródło: www.typotalks.com&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;mike-monteiro&quot;&gt;Mike Monteiro&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Jak walczyć z faszyzmem?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Prelegentem, na którego większość czekała, był Mike Monteiro, założyciel i projektant &lt;a href=&quot;http://muledesign.com/&quot;&gt;Mule Design&lt;/a&gt;. Uderzył mocno, nie przebierał w słowach, czyli tak jak na twitterze. Przepuszczając przez filtr formę prezentacji i  słownictwo, przekaz Monteiro był jasny – projektowanie ma wpływ na rzeczywistość, dlatego powinniśmy robić to odpowiedzialnie, a w skrajnych przypadkach odmawiać. Jest z tych gości, którzy traktują projektowanie na serio. Kategorycznie wypowiada się o Travisie Kalanicku (CEO Ubera), wyśmiewa oszustwo związane z &lt;a href=&quot;https://en.wikipedia.org/wiki/Sharing_economy&quot;&gt;sharing economy&lt;/a&gt; (zabawne, że w tym samym czasie w Polsce trwa dalej nuworyszowski zachwyt nad unikaniem opodatkowania, licencji i przepisów).&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/monteiro-element-talk-2017.jpg&quot; alt=&quot;Mike Monteiro, Jak walczyć z faszyzmem. Slajd &#39;No, THEY, live in a bubble&#39;.&quot; title=&quot;Polityka i design zawsze się idą w parze.&quot; /&gt;
+  &lt;figcaption&gt;&lt;small&gt;Polityka i design zawsze się idą w parze.&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Zniechęcająca mogła być forma jego prezentacji, a właściwie kazania ze sceny. Oraz to, że temat, który porusza, jest mocną agitacją i przedstawieniem kolejny raz prywatnych poglądów na politykę w USA. Jeżeli w branży user experience mamy zauważalną nadwyżkę projektantów z przerostem ego, to tutaj już mamy do czynienia z prorokiem.&lt;/p&gt;
+
+&lt;h2 id=&quot;następna-edycja&quot;&gt;Następna edycja?&lt;/h2&gt;
+
+&lt;p&gt;Tak jak wcześniej wspomniałem, na Element Talks warto się wybrać. Trzeba jednak mieć trochę szczęścia, aby nie trafić na prezentację, w której prelegent kończy 20 minut przed czasem i nie wie co robić dalej. Na szczęście były stoiska z dobrym jedzeniem, kawą. Było także bardzo dużo uczestników imprezy, wśród których można było spotkać dawno niewidzianych znajomych :)&lt;/p&gt;
+
+&lt;p&gt;Coś, co mógłbym zasugerować organizatorkom, to zwracanie uwagi na problemy na scenie. Jeżeli kolejna osoba na scenie pyta się o to ile jeszcze ma czasu do końca, to znaczy, że informacja o tym jest potrzebna także następnym prelegentom ;) Druga sprawa to oświetlenie mówcy, które jednocześnie oświetla ekran za nim. Ale to już do poprawienia w następnej edycji.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 May 2017 00:00:00 +0200</pubDate>
+        <link>https://mdjablonski.github.io/2017-05-01/element-talks-2017-etyka-w-projektowaniu</link>
+        <guid isPermaLink="true">https://mdjablonski.github.io/2017-05-01/element-talks-2017-etyka-w-projektowaniu</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
