@@ -8,11 +8,11 @@ date:   2017-07-21
 
 Przeglądając Google Trends można odnieść wrażenie, że wszystko, co związane z grywalizacją, zaczęło mieć miejsce dopiero po 2011 roku.
 
-{% include image.html path="/images/gamification-of-life.png" description="Element Talks 2017" %}
+{% include image.html path="/images/gamification-of-life.png" description="Grywalizacja" %}
 
 Nie jest to do końca zgodne z prawdą. Już w [pierwszej połowie XX wieku](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2115483) w Związku Radzieckim podejmowano próby uczynienia pracy bardziej przyjemną, zbliżoną do gier, zwiększając jednocześnie wydajność. Literatura związana z dziedziną Human–Computer Interaction także już wcześniej poruszała [temat wykorzystania elementów gier](http://www.cs.ru.ac.za/courses/honours/HCI/readings/.%5Cdyck.pdf) w obszarze innych interfejsów niż te związane z grami. Przed 2010 rokiem najbardziej powszechnymi pojęciami w użyciu były _serious game_ oraz _persuasive game_. Odnosiły się m.in. do symulacji działań wojennych i sytuacji kryzysowych; często również miały na celu zmianę podejścia gracza do danego tematu. Narzędziem, które służyło w tym celu, była oczywiście gra.
 
-{% include image.html path="/images/google-trends-gamification.png" description="Element Talks 2017" caption="Stackoverflow" %}
+{% include image.html path="/images/google-trends-gamification.png" description="Google Trends – Grywalizacja" caption="Gwałtowny wzrost zainteresowania grywalizacją." %}
 
 Jednak już około 2008 roku zaczęła narastać świadomość, że zjawisko stosowania elementów gier w internecie zyskuje na popularności. Jest czymś co może stać się elementem oferty marketingowej, jak i samej strategii produktu. Nadanie nazwy temu zjawisku wzmocniło rosnące nim zainteresowanie ze strony marketingu, jak i świata naukowego. Prawdopodobnie uratowało je także przed zawłaszczeniem przez inne, ugruntowane już metody angażowania użytkowników w internecie. Zgodnie z zasadą „[No flag, no country](https://www.youtube.com/watch?v=_9W1zTEuKLY)” ;)
 
@@ -71,17 +71,17 @@ W 2014 roku sztandarowy przykład związany z grywalizacją, czyli Foursquare, [
 
 Najkorzystniej w mojej opinii wygląda zastosowanie grywalizacji na forach dyskusyjnych oraz w aplikacjach sportowych. Przykładem dla forum dyskusyjnego z dobrze zrealizowaną grywalizacją jest [stackoverflow.com](https://stackoverflow.com). Twórcy, czyli [Jeff Atwood](https://blog.codinghorror.com/) i [Joel Spolsky](https://www.joelonsoftware.com/), tworząc nowy rodzaj forów, zapożyczyli najlepiej sprawdzające się mechanizmy, znane im z systemów dostępnych online, takie jak głosowanie, osiągnięcia, społecznościowe edytowanie, wzajemna ocena [i inne](https://blog.codinghorror.com/the-gamification/). Realizacja należy do bardzo udanych. Pomimo funkcjonowania od 2008 roku, mechanizm funkcjonowania jest wciąż aktualny. Zapewne ma na to wpływ warstwa wizualna – odznaki przyznawane za wartościowe odpowiedzi są tylko kolorowymi punktami nawiązującymi do medali olimpijskich. Nie wprowadzają jednak poczucia przebywania w dziecięcym świecie. Warty odnotowania jest również fakt, że zdobyte punkty i odznaki mają wartość poza tworzącym go systemem. Dla rekruterów z branży IT jest to społecznościowe potwierdzenie wiedzy danej osoby i chęci dzielenia się nią.
 
-{% include image.html path="/images/stackoverflow-gamification.png" description="Element Talks 2017" caption="Stackoverflow" %}
+{% include image.html path="/images/stackoverflow-gamification.png" description="Stackoverflow - screenshot" caption="Stackoverflow. Widoczne punkty zdobyte przez zadającego pytanie." %}
 
 Aplikacją sportową (poza powszechnie omawianym Nike+), która zasługuje na uznanie ze względu na sprawnie zaimplementowaną grywalizację, jest [Strava](https://www.strava.com/). Bazując na użytkownikach uprawiających kolarstwo zarówno zawodowo, jak i amatorsko, stwarza niesamowite możliwości realizacji swojej pasji, zwłaszcza dla tej drugiej grupy. Amatorzy, którzy nie mogą wystartować w Giro d’Italia czy Tour de France, mogą konkurować na odcinkach położonych niedaleko swojego miejsca zamieszkania. Opierając dane o GPS, konkurowanie i bicie rekordów wybranych odcinków staje się możliwe, nawet przy samotnym treningu. Dla osób, które chcą śledzić swoje postępy, jest to niezwykle mobilizujący czynnik. Jednocześnie wejście do tej gry jest dobrowolne, można korzystać ze Stravy tylko do monitorowania i analizy swoich treningów. Rację ma Paweł Tkaczyk [pisząc](https://books.google.pl/books?id=hUHxcJXWYakC&printsec=frontcover&hl=pl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), że podstawą gry jest jej dobrowolność. Gramy w grę bo chcemy, a nie musimy. Chyba, że znajdujemy się w [chińskim więzieniu](https://www.theguardian.com/world/2011/may/25/china-prisoners-internet-gaming-scam), wtedy gra staje się przymusową pracą.
 
-{% include image.html path="/images/strava-gamification.png" description="Element Talks 2017" caption="Strava" %}
+{% include image.html path="/images/strava-gamification.jpg" description="Strava - screenshot" caption="Strava. Porównanie najelpszych czasów na Agrykoli (Warszawa)." %}
 
 
 ## Konkluzje
 
 Nieudane implementacje ściągnęły falę krytyki na zjawisko, które występując na gruncie do tego stworzonym – jak sport – radzi sobie dobrze. Choć nawet dobra lokalizacja nie będzie gwarantem sukcesu z prostego powodu, który znają wszyscy twórcy gier – dobrą grę, która angażuje, zachwyca i staje się hitem, jest bardzo ciężko stworzyć. Najlepiej pokazuje to [51 gier wydanych przez Rovio](http://edition.cnn.com/2012/06/03/tech/gallery/rovio-failed-games/index.html), które powstały przed Angry Birds i nie cieszyły się tak dużą popularnością.
 
-{% include image.html path="/images/hype-cycle-2016.jpg" description="Element Talks 2017" caption="Tekturowe identyfikatory :)" %}
+{% include image.html path="/images/hype-cycle-2016.jpg" description="Gartner Hype Cycle for Education, 2016" caption="Jeszcze niedawno grywalizacja była możliwa do odnalezienia na samym szczycie krzywej." %}
 
 Zgodnie z [cyklem hype’u Gartnera](https://www.gartner.com/doc/3364119/hype-cycle-education-), przeżywamy obecnie rozczarowanie grywalizacją. Termin nie wywołuje już takich emocji jak kilka lat temu. Nie ma też oczekiwań, że zastosowanie grywalizacji poprawi zaangażowanie użytkowników tam, gdzie produkt sam w sobie jest słaby. Chyba najbardziej pozytywnym efektem szumu związanego z grywalizacją jest odczarowanie samych gier, które nie są widziane już jedynie jako bezproduktywna rozrywka, stereotypowo wyobrażonego gracza. Choć może być to również powiązanie z faktem, że osoby podejmujące decyzje projektowe miały szansę wychować się na grach wideo, którym zawdzięczają wejście w świat internetu i informatyki.
