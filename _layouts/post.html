@@ -2,13 +2,22 @@
 layout: default
 ---
 
-<header>
-  <h1 itemprop="name headline">{{ page.title }}</h1>
-  <time itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>
-</header> 
-<section>
-    <article itemscope itemprop="articleBody">
-      {{ content }}
-    </article>  
-</section>
+<section class="wide-width">
+    
+    <article class="mdj-post">
+        <h1 class="mdj-title">{{ page.title }}</h1>
+        <p><time>{{ page.date | date: "%Y.%m.%d" }}</time></p>
 
+        {{ content }}
+        
+        <h3>Tags:</h3>
+        <p>
+            {% for tag in page.tags %}
+             <a href="/tags/{{ tag }}/">{{ tag }}</a>
+            {% endfor %}
+        </p>
+
+        {% include contact.html %}
+    </article>
+
+</section>

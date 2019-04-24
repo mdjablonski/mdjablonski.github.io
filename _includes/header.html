@@ -1,23 +1,20 @@
-<header role="banner" class="align">
-  <hgroup class="page-header">
-    <h3 class="site-title">
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </h3>
-    <p class="site-description">{{ site.description }}</p>
-  </hgroup>
-  <nav role="navigation">
-    <ul class="global-menu">
-      <li>
-        <a href="/">Index</a>
-      </li>
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for nav_page in sorted_pages %}
-        {% if nav_page.title %}
-          <li>
-            <a href="{{ nav_page.url | prepend: site.baseurl }}">{{ nav_page.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
+<header role="banner" class="standard-width" id="top">
+    <div class="mdj-header">
+        <div>
+            <p class="mdj-header--title"><a href="{{ site.baseurl }}/">Design Blog</a></p>
+            <h2 class="mdj-header--subtitle"><a href="{{ site.baseurl }}/">About designing products and things related to it</a></h2>
+        </div>
+        <nav role="navigation">
+            <ul class="mdj-menu">
+                <li><a href="{{ site.baseurl }}/">Articles</a></li>
+                <li><a href="{{ site.baseurl }}/projects-and-works/">Projects & Works</a></li>
+                <li><a href="{{ site.baseurl }}/about-me/">About me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    {% if page.card %}
+        {% include {{ page.card }} %}
+    {% endif %}
+
 </header>

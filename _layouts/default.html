@@ -1,23 +1,10 @@
-<html>
+{% include head.html %}
+{% include header.html %}
 
-  {% include head.html %}
+<main role="main">
+    
+    {{ content }}
 
-  <body>
+</main>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ5G6QH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-    {% include header.html %}
-
-    <main role="main" class="align">
-
-      {{ content }}
-      
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-  
-</html>
+{% include footer.html %}

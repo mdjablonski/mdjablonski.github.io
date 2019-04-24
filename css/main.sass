@@ -1,0 +1,350 @@
+---
+--- 
+
+// Convention standard -> https://sass-guidelin.es
+
+@charset 'utf-8'
+  
+// Debug mode
+
+// *
+//   outline: 1px dotted red
+
+
+// Variables and styles
+
+$body-font: ("Georgia")
+
+$header-font: (-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol")
+
+$content-width: 38rem
+$standard-width: 40rem
+$medium-width: 60rem
+$wide-width: 80rem
+
+$dark-gray: hsl(0, 0%, 10%) // #1a1a1a, rgb(26, 26, 26)
+$brick-red: hsl(0, 100%, 40%) // #cc0000, rgb(204, 0, 0)
+$sky-blue: hsl(209, 100%, 94%) // #e2f1ff, rgb(224, 240, 255)
+$intensive-blue: hsl(214, 100%, 40%) // #0058cc, rgb(0, 88, 204)
+$black: hsl(0, 0%, 0%) // #000000, rgb(0, 0, 0)
+$gold: hsl(51, 100%, 50%) // #ffd700, rgb(255, 215, 0)
+$cite: hsl(50, 88%, 93%) // #fdf8df, rgb(253, 248, 223)
+$img-outline: rgba(0, 0, 0, 0.12)
+
+// General settings
+
+body
+  margin: 0
+  padding: 0
+
+img
+  max-width: 100%
+
+figure
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-left: auto
+  margin-right: auto
+
+.standard-width
+  margin: 3rem auto
+  max-width: $standard-width
+  &__margin-top
+    margin: 4rem auto 3rem auto
+    max-width: $standard-width
+
+.wide-width
+  margin: 3rem auto
+  max-width: $wide-width
+
+.medium-width
+  margin: 3rem auto
+  max-width: $medium-width
+
+// Typography
+
+body
+  font-size: 100%
+  
+h1
+  font-size: 2.25em  /* 16x2.25=36 */ 
+
+h2
+  font-size: 1.5em
+
+h3
+  font-size: 1.2em 
+
+h4
+  font-size: 0.875em /* 16x0.875=14 */ 
+
+p
+  font-size: 1em /* 16 */ 
+  text-align: justify 
+
+figcaption
+  margin-top: 0.5rem
+  text-align: center
+
+body
+  font-family: $body-font
+  line-height: 1.8
+
+h1, h2, h3, h4, h5, h6
+  font-family: $header-font
+  line-height: 1.2
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-rendering: optimizeLegibility
+
+h2
+  a
+    text-decoration: none
+    color: $intensive-blue
+
+
+// Header
+
+.mdj-header
+    h2
+      a
+        text-decoration: none
+
+.mdj-header
+  &--title
+    line-height: 1
+    color: $dark-gray
+    a
+      color: $dark-gray
+      text-decoration: none
+
+.mdj-header
+  margin-bottom: 2rem
+  border-bottom: 1px solid $black
+  padding: 0 1rem
+  &--subtitle
+    font-size: 1.3rem
+    line-height: 1.4
+    a
+      color: $dark-gray
+
+.mdj-menu
+  display: flex
+  flex-wrap: wrap
+  padding: 0
+  list-style-type: none
+  li
+    margin-right: 2rem
+    &:last-child
+      margin-right: 0
+  a
+    text-decoration: none
+    color: $brick-red
+    &:hover
+      border-bottom: 1px solid $brick-red
+
+.mdj-title
+  padding: 0 1rem
+  &__tag
+    font-style: italic
+  
+// Card
+
+.mdj-card
+  display: flex
+  margin: 0 0 3rem 0
+  padding: 1rem 2rem
+  border-radius: 5px
+  background: $sky-blue
+  &--photo
+    border-radius: 100%
+    min-width: 70px
+    max-width: 70px
+    height: 70px
+    background-color: $brick-red
+    img
+      border-radius: 100%
+  &--desc
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin-left: 2rem
+
+// Contact
+
+.highlight
+  max-width: $content-width
+  border-radius: 5px
+  background-color: #ddfdff
+  padding: 1rem 1rem 2rem 1rem
+  h3
+    margin-top: 2rem
+    padding: 0 1rem
+  p
+    padding: 0 1rem
+  a
+    max-width: 13rem
+    border-radius: 5px
+    margin-left: auto
+    margin-right: auto
+    background-color: #ffd900
+    padding: 0.5em 0
+    text-align: center
+    text-decoration: none
+    display: block
+    color: black
+
+// Index list
+
+.mdj-listing
+  overflow: auto
+  padding: 0 1rem
+  &__h2
+    margin-bottom: 0.5em
+    font-size: 1.25em   /* 16x1.25=20 */ 
+  p
+    margin-top: 0.5em
+
+.mdj-listing + .mdj-listing
+  margin-top: 2rem
+
+// Article
+
+.mdj-post
+  p, h1, h2, h3, h4, h5, h6, hr, ul, ol, span, blockquote, table, pre, code, .iframe
+    margin-left: auto
+    margin-right: auto
+    max-width: $content-width
+  p, h1, h2, h3, h4, h5, h6,span, blockquote, table, figure
+    padding: 0 1rem
+  h2
+    margin-top: 2rem    
+    margin-bottom: 0.5rem
+  h3
+    margin-top: 2rem
+
+.iframe iframe
+  max-width: 100%
+    
+.text-block
+  // margin: 0 5em
+  padding: 0 1rem
+
+.mdj-post
+  blockquote
+    p
+      margin: 2rem 1rem
+      padding: 1rem
+      background: $cite
+
+
+// Projects
+
+.mdj-projects
+  &--project
+    display: flex
+    justify-content: space-between
+    margin-top: 5rem
+    &__image, &__description
+      width: 50%
+      padding-left: 1rem
+    &__image img
+      outline: 3px solid $img-outline
+
+
+// Footer
+
+.mdj-footer
+  border-top: 1px solid $black 
+  padding: 0 1rem
+  &--links
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+
+
+// Style
+
+.border-box
+  border: 1px solid $black 
+
+.text-padding
+  padding: 2em 
+
+
+// Mobile - Fonts, Margin, Padding, Footer
+
+@media (max-width: $standard-width)
+
+  .highlight
+    margin: 0 1rem
+
+  .mdj-projects
+    &--project
+      flex-direction: column
+      margin-top: 2rem
+      &__image
+        width: auto
+        padding: 1rem
+        img
+          width: 100%
+      &__description
+        width: 100%
+        padding: 0
+
+  .mdj-card
+    margin-left: 1rem
+    margin-right: 1rem
+
+@media (max-width: 32em)
+
+  .standard-width, .wide-width
+    margin: 2em auto
+
+  .mdj-header
+    margin-bottom: 2rem
+    
+  .mdj-card
+    margin-bottom: 2em
+    padding: 1rem
+    &--desc
+      margin-left: 1rem
+
+  .mdj-post
+    &__h2
+      font-size: 1.125em /* 16x1.125=18 */
+
+  .mdj-post
+    .highlight
+      padding: 0.5rem 0.25rem 1.5rem 0.25rem
+
+  h1
+    font-size: 1.5em /* 16x1.5=24 */ 
+
+  h2
+    font-size: 1.25em
+
+  h3
+    font-size: 1.15em
+
+  .title
+    font-size: 1.1em 
+
+  footer[role="contentinfo"]
+    flex-direction: column
+
+// Mobile - Card (column)
+
+@media (max-width: 23em)
+
+  .mdj-card
+    flex-direction: column 
+  
+  .mdj-card
+    &--photo
+      margin: 0 auto
+    &--desc
+      margin: 1em 0 0 0
+      text-align: center
+
