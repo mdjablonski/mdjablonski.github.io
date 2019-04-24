@@ -9,13 +9,6 @@ layout: default
         <p><time>{{ page.date | date: "%Y.%m.%d" }}</time></p>
 
         {{ content }}
-        
-        <h3>Tags:</h3>
-        <p>
-            {% for tag in page.tags %}
-             <a href="/tags/{{ tag }}/">{{ tag }}</a>
-            {% endfor %}
-        </p>
 
         {% include contact.html %}
     </article>
