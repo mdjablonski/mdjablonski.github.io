@@ -21,6 +21,7 @@ github_username:  mdjablonski
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
