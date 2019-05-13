@@ -1,30 +1,37 @@
 ---
-layout: default
-card: card.html
+layout: page
+redirect_from: /about-me
 ---
 
 <section class="standard-width">
-    <h1 class="mdj-title">Articles</h1>
-
-    {% for post in site.posts %}
-    <article class="mdj-listing">
-        <h2 class="mdj-listing__h2">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <small>
-            <time>{{ post.date | date: "%Y.%m.%d" }}</time>
-        </small>
-        <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-    </article>  
-    {% endfor %}
-
-    {% include contact.html %}
-
+    <h1 class="mdj-title">About me</h1>
 </section>
 
+{% include medium-img.html path="/assets/about-1.jpg" description="I'm talking about designing Pirx the Pilot" %}
 
-<!-- <section class="col-4 ">
-    <div class="text-block border-box">
-        <p>How kind Henry proposed a pause of the science and I raved incessantly concerning this discovery of lightning playing with me more cheerful faces expressed a repulsive among mankind, and ambition to thine, my guest increases every precaution he had altered the old man could scarcely remember the trees, spread havoc and told with me and instigated my murdered in which I trembled from the rain had worn when all but they behold the companions followed my judgment that I could have thought of my brother?</p>
-    </div>
-</section> -->
+<section class="standard-width">
+    <p>Hi, my name is <b>Marcin Dominik Jabłoński</b> and I work as a Product & UX designer.</p>
+    <p>As a designer I support my clients in the implementation of digital projects in the field of design, design strategy, user experience, and in creating a product vision, in order to achieve their design goals.</p>
+    <!-- <p>Not to sound lofty, but I think that design is not the solution to all problems and that it is not the most important part of a product or service - in this way it often downgrades the business aspect of a project. So providing support, I try to focus on areas where the design aspect is relevant.</p> -->
+
+    <div class="cta-box" ><a href="{{ site.baseurl }}/ux-portfolio/">Check my UX portfolio</a></div>
+
+    <!-- <p>Below you can find an outline of my work experience.</p> -->
+
+    <h3>Designer and consultant</h3>
+    <p>Consulted on interaction design for many companies including:</p>
+</section>
+
+{% include medium-img.html path="/assets/logos.jpg" srcset="/assets/logos.jpg 960w, /assets/logos-640.jpg 640w" %}
+
+<section class="standard-width">
+    <h3>Speaker and mentor</h3>
+    <p><a href="https://www.facebook.com/uxuispacewroclaw/">UX/UI Space Wrocław</a> - speak about design approach to tiny, limited interfaces. Full record of the speech is avalaible on <a href="https://www.youtube.com/watch?v=QcMmxhGIh8k">Youtube</a>.</p>
+    <p><a href="https://www.space3.ac">Space3ac</a> – participated as a UX mentor (one-to-one consulting) for startups which use satellite technologies to create solutions for the intermodal transportation sector</p>
+    <br />
+    <h3>Creator</h3>
+    <p><a href="https://pirxfpv.com">Pirx The Pilot</a> – an FPV (first-person view) software that provides the user (pilot) with the best possible experience throughout the process of search, signal reception, and configuration.</p>
+    <p><a href="https://www.facebook.com/GorskieWycieczki/">Górskie Wycieczki</a> – an interactive tool for planning a day trip, based on avarage time to walk and sharing the routes with other participans. Project abandoned.</p>
+</section>
+
+{% include contact.html %}

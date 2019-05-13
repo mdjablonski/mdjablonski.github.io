@@ -25,6 +25,7 @@ $wide-width: 80rem
 $dark-gray: hsl(0, 0%, 10%) // #1a1a1a, rgb(26, 26, 26)
 $brick-red: hsl(0, 100%, 40%) // #cc0000, rgb(204, 0, 0)
 $sky-blue: hsl(209, 100%, 94%) // #e2f1ff, rgb(224, 240, 255)
+$highlight-blue: hsl(184, 100%, 93%) // #ddfdff, rgb(221, 253, 255)
 $intensive-blue: hsl(214, 100%, 40%) // #0058cc, rgb(0, 88, 204)
 $black: hsl(0, 0%, 0%) // #000000, rgb(0, 0, 0)
 $gold: hsl(51, 100%, 50%) // #ffd700, rgb(255, 215, 0)
@@ -173,10 +174,8 @@ h2
 
 // Contact
 
-.highlight
+.highlight, .cta-box
   max-width: $content-width
-  border-radius: 5px
-  background-color: #ddfdff
   padding: 1rem 1rem 2rem 1rem
   h3
     margin-top: 2rem
@@ -194,6 +193,10 @@ h2
     text-decoration: none
     display: block
     color: black
+
+.highlight
+  border-radius: 5px
+  background-color: $highlight-blue
 
 // Index list
 
@@ -281,7 +284,7 @@ h2
 
 @media (max-width: $standard-width)
 
-  .highlight
+  .highlight, .cta-box
     margin: 0 1rem
 
   .mdj-projects
@@ -320,7 +323,7 @@ h2
       font-size: 1.125em /* 16x1.125=18 */
 
   .mdj-post
-    .highlight
+    .highlight, .cta-box
       padding: 0.5rem 0.25rem 1.5rem 0.25rem
 
   h1
