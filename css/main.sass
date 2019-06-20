@@ -206,15 +206,16 @@ header[role="banner"]
     text-decoration: none
     color: $link-blue
     font-weight: 500
+  &__about::before, &__portfolio::before, &__articles::before
+    padding-right: 0.5em
+    top: 0.2rem
+    position: relative
   &__about::before
-    content: "🧔🏻 "
-    padding-right: 0.5em
+    content: url(/assets/emoji-about.png)
   &__portfolio::before
-    content: "⭐️ "
-    padding-right: 0.5em
+    content: url(/assets/emoji-portfolio.png)
   &__articles::before
-    content: "✍️ "
-    padding-right: 0.5em
+    content: url(/assets/emoji-articles.png)
 
 .mdj-title
   padding: 0 1rem
@@ -704,12 +705,6 @@ header[role="banner"]
     margin: 0 1rem 1rem 1rem
     padding: 0.75rem 1rem
     border-radius: 1rem
-    &__about::before
-      padding-right: 0
-    &__portfolio::before
-      padding-right: 0
-    &__articles::before
-      padding-right: 0
     li
       margin-right: 1rem
 
