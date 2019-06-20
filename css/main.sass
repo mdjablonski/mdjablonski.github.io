@@ -10,20 +10,65 @@
 // *
 //   outline: 1px dotted red
 
+@font-face 
+  font-family: 'HK Grotesk'
+  src: url('/fonts/hkgrotesk-semibold.eot')
+  src: url('/fonts/hkgrotesk-semibold.eot?#iefix') format('embedded-opentype'), url('/fonts/hkgrotesk-semibold.woff2') format('woff2'), url('/fonts/hkgrotesk-semibold.woff') format('woff')
+  font-weight: 600
+  font-style: normal
+
+@font-face 
+  font-family: 'HK Grotesk'
+  src: url('/fonts/hkgrotesk-semibolditalic.eot')
+  src: url('/fonts/hkgrotesk-semibolditalic.eot?#iefix') format('embedded-opentype'), url('/fonts/hkgrotesk-semibolditalic.woff2') format('woff2'), url('/fonts/hkgrotesk-semibolditalic.woff') format('woff')
+  font-weight: 600
+  font-style: italic
+
+@font-face 
+  font-family: 'HK Grotesk'
+  src: url('/fonts/hkgrotesk-medium.eot')
+  src: url('/fonts/hkgrotesk-medium.eot?#iefix') format('embedded-opentype'), url('/fonts/hkgrotesk-medium.woff2') format('woff2'), url('/fonts/hkgrotesk-medium.woff') format('woff')
+  font-weight: 500
+  font-style: normal
+
+@font-face 
+  font-family: 'HK Grotesk'
+  src: url('/fonts/hkgrotesk-mediumitalic.eot')
+  src: url('/fonts/hkgrotesk-mediumitalic.eot?#iefix') format('embedded-opentype'), url('/fonts/hkgrotesk-mediumitalic.woff2') format('woff2'), url('/fonts/hkgrotesk-mediumitalic.woff') format('woff')
+  font-weight: 500
+  font-style: italic
+
+@font-face 
+  font-family: 'HK Grotesk'
+  src: url('/fonts/hkgrotesk-regular.eot')
+  src: url('/fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/hkgrotesk-regular.woff2') format('woff2'), url('/fonts/hkgrotesk-regular.woff') format('woff')
+  font-weight: 400
+  font-style: normal
+
+@font-face 
+  font-family: 'HK Grotesk'
+  src: url('/fonts/hkgrotesk-italic.eot')
+  src: url('/fonts/hkgrotesk-italic.eot?#iefix') format('embedded-opentype'), url('/fonts/hkgrotesk-italic.woff2') format('woff2'), url('/fonts/hkgrotesk-italic.woff') format('woff')
+  font-weight: 400
+  font-style: italic
+
 
 // Variables and styles
 
-$body-font: ("Georgia")
-
-$header-font: (-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol")
+$body-font: ("HK Grotesk", Helvetica, Arial, sans-serif)
+$header-font: ("HK Grotesk", Helvetica, Arial, sans-serif)
 
 $content-width: 38rem
 $standard-width: 40rem
 $medium-width: 60rem
 $wide-width: 80rem
 
+$white: hsl(100, 100%, 100%)
 $dark-gray: hsl(0, 0%, 10%) // #1a1a1a, rgb(26, 26, 26)
+$light-gray: hsl(0, 0%, 98%) // #f9f9f9, rgb(249, 249, 249)
+$text-gray: hsl(0, 0%, 37%) // #5E5E5E, rgb(94, 94, 94)
 $brick-red: hsl(0, 100%, 40%) // #cc0000, rgb(204, 0, 0)
+$link-blue: hsl(214, 100%, 46%) // #0065ea, rgb(0, 101, 234)
 $sky-blue: hsl(209, 100%, 94%) // #e2f1ff, rgb(224, 240, 255)
 $highlight-blue: hsl(184, 100%, 93%) // #ddfdff, rgb(221, 253, 255)
 $intensive-blue: hsl(214, 100%, 40%) // #0058cc, rgb(0, 88, 204)
@@ -78,11 +123,17 @@ h3
   font-size: 1.2em 
 
 h4
-  font-size: 0.875em /* 16x0.875=14 */ 
+  font-size: 1em 
 
 p
   font-size: 1em /* 16 */ 
-  text-align: justify 
+
+a
+  font-weight: 500
+  color: $link-blue
+
+b
+  font-weight: 600
 
 figcaption
   margin-top: 0.5rem
@@ -103,9 +154,14 @@ h2
   a
     text-decoration: none
     color: $intensive-blue
+    font-weight: 600
 
 
 // Header
+
+header[role="banner"]
+  padding: 2rem 0 1rem 0
+  background: $light-gray
 
 .mdj-header
     h2
@@ -114,90 +170,101 @@ h2
 
 .mdj-header
   &--title
-    line-height: 1
-    color: $dark-gray
+    font-size: 1.3rem
+    line-height: 1.4
+    margin: 0.6rem 0 0 0
     a
       color: $dark-gray
+      font-weight: 600
       text-decoration: none
 
 .mdj-header
-  margin-bottom: 2rem
-  border-bottom: 1px solid $black
-  padding: 0 1rem
+  display: flex
+  max-width: 40rem
+  margin: 0 auto
   &--subtitle
-    font-size: 1.3rem
-    line-height: 1.4
+    line-height: 1
+    margin: 0.5rem 0 0 0
     a
-      color: $dark-gray
+      color: $text-gray
+      text-decoration: none
 
 .mdj-menu
   display: flex
   flex-wrap: wrap
-  padding: 0
+  flex-direction: column
+  padding: 1rem
   list-style-type: none
+  margin: 0.75rem 1rem 0 0
+  line-height: 2
+  background: $white
   li
     margin-right: 2rem
     &:last-child
       margin-right: 0
   a
     text-decoration: none
-    color: $brick-red
-    &:hover
-      border-bottom: 1px solid $brick-red
+    color: $link-blue
+    font-weight: 500
+  &__about::before
+    content: "🧔🏻 "
+    padding-right: 0.5em
+  &__portfolio::before
+    content: "⭐️ "
+    padding-right: 0.5em
+  &__articles::before
+    content: "✍️ "
+    padding-right: 0.5em
 
 .mdj-title
   padding: 0 1rem
   &__tag
     font-style: italic
+
+.mdj-dialog
+  margin: 1.3rem 1rem 1.5rem 1rem
+  &--arrow
+    display: block
+    position: relative
+    width: 0
+    height: 0
+    top: -4px
+    left: 28px
+    border-left: 10px solid transparent
+    border-right: 10px solid transparent
+    border-bottom: 10px solid $white
+  &--bubble
+    background: $white
+    padding: 0.5rem 1rem
+    border-radius: 24px
   
 // Card
 
 .mdj-card
   display: flex
-  margin: 0 0 3rem 0
-  padding: 1rem 2rem
-  border-radius: 5px
-  background: $sky-blue
+  flex-grow: 2
+  margin-left: 1rem
   &--photo
+    margin-top: 0.5rem
     border-radius: 100%
     min-width: 70px
     max-width: 70px
     height: 70px
-    background-color: $brick-red
+    &__rainbow
+      -webkit-animation: rainbow 6s infinite
+      -ms-animation: rainbow 6s infinite
+      -o-animation: rainbow 6s infinite
+      animation: rainbow 6s infinite
     img
       border-radius: 100%
+      border: 2px solid coral
   &--desc
     display: flex
     flex-direction: column
-    justify-content: center
-    margin-left: 2rem
-
-// Contact
-
-.highlight, .cta-box
-  max-width: $content-width
-  padding: 1rem 1rem 2rem 1rem
-  h3
-    margin-top: 2rem
-    padding: 0 1rem
-  p
-    padding: 0 1rem
-  a
-    max-width: 13rem
-    border-radius: 5px
-    margin-left: auto
-    margin-right: auto
-    background-color: #ffd900
-    padding: 0.5em 0
-    text-align: center
-    text-decoration: none
-    display: block
-    color: black
-
-.highlight
-  border-radius: 5px
-  background-color: $highlight-blue
-
+    flex-grow: 2
+    margin-left: 1rem
+    margin-top: 0.55rem
+  
 // Index list
 
 .mdj-listing
@@ -242,23 +309,69 @@ h2
       background: $cite
 
 
-// Projects
+// Projects, About me
 
-.mdj-projects
-  &--project
+.mdj-projects, .mdj-content
+  margint-top: 2rem
+  &--project, &--row
     display: flex
     justify-content: space-between
     margin-top: 3rem
     padding-top: 1rem
     padding-bottom: 1rem
     background: $project-bg
-    &__image, &__description
+    &__image, &__description, &__lead, &__cta-container
       width: 50%
       padding-left: 1rem
     &__image
       video
         width: 100%
+    &__intro
+      background: none
+    &__lead
+      font-size: calc(1em + 0.8vw)
+      line-height: calc(1.2em + 1.2vw)
+    &__cta-container
+      display: flex
+      align-items: center
+      justify-content: center
 
+.mdj-content
+  &--row
+    background: none
+
+.mdj-outer-cta-box
+  display: flex
+  flex-direction: column
+  margin-left: -1rem
+
+
+// Contact
+
+.highlight, .cta-box
+  max-width: $content-width
+  padding: 1rem 1rem 2rem 1rem
+  h3
+    margin-top: 1rem
+    padding: 0 1rem
+  p
+    padding: 0 1rem
+  a
+    max-width: 13rem
+    border-radius: 5px
+    margin-left: auto
+    margin-right: auto
+    background-color: #ffd900
+    padding: 0.5em 0
+    text-align: center
+    text-decoration: none
+    display: block
+    color: black
+    font-weight: 600
+
+.highlight
+  border-radius: 5px
+  background-color: $highlight-blue
 
 // Footer
 
@@ -280,6 +393,274 @@ h2
   padding: 2em 
 
 
+// Rainbow
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow
+  0%
+    border-color: hsl(11.25, 100%, 50%)
+  4%  
+    border-color: hsl(22.5, 100%, 50%)
+  6%  
+    border-color: hsl(33.75, 100%, 50%)
+  10%
+    border-color: hsl(45, 100%, 50%)
+  13%
+    border-color: hsl(56.25, 100%, 50%)
+  16%
+    border-color: hsl(67.5, 100%, 50%)
+  20%
+    border-color: hsl(78.75, 100%, 50%)
+  23%
+    border-color: hsl(90, 100%, 50%)
+  26%
+    border-color: hsl(101.25, 100%, 50%)
+  30%
+    border-color: hsl(112.5, 100%, 50%)
+  33%
+    border-color: hsl(123.75, 100%, 50%)
+  36%
+    border-color: hsl(135, 100%, 50%)
+  39%
+    border-color: hsl(146.25, 100%, 50%)
+  44%
+    border-color: hsl(157.5, 100%, 50%)
+  47%
+    border-color: hsl(168.75, 100%, 50%)
+  50%
+    border-color: hsl(180, 100%, 50%)
+  50%
+    border-color: hsl(191.25, 100%, 50%)
+  53%
+    border-color: hsl(202.5, 100%, 50%)
+  57%
+    border-color: hsl(213.75, 100%, 50%)
+  60%
+    border-color: hsl(225, 100%, 50%)
+  63%
+    border-color: hsl(236.25, 100%, 50%)
+  66%
+    border-color: hsl(247.5, 100%, 50%)
+  69%
+    border-color: hsl(258.75, 100%, 50%)
+  72%
+    border-color: hsl(270, 100%, 50%)
+  76%
+    border-color: hsl(281.25, 100%, 50%)
+  80%
+    border-color: hsl(292.5, 100%, 50%)
+  83%
+    border-color: hsl(303.75, 100%, 50%)
+  86%
+    border-color: hsl(315, 100%, 50%)
+  90%
+    border-color: hsl(326.25, 100%, 50%)
+  94%
+    border-color: hsl(337.5, 100%, 50%)
+  97%
+    border-color: hsl(348.75, 100%, 50%)
+  100%
+    border-color: hsl(0, 100%, 50%)
+
+@-moz-keyframes rainbow
+  0%
+    border-color: hsl(11.25, 100%, 50%)
+  4%  
+    border-color: hsl(22.5, 100%, 50%)
+  6%  
+    border-color: hsl(33.75, 100%, 50%)
+  10%
+    border-color: hsl(45, 100%, 50%)
+  13%
+    border-color: hsl(56.25, 100%, 50%)
+  16%
+    border-color: hsl(67.5, 100%, 50%)
+  20%
+    border-color: hsl(78.75, 100%, 50%)
+  23%
+    border-color: hsl(90, 100%, 50%)
+  26%
+    border-color: hsl(101.25, 100%, 50%)
+  30%
+    border-color: hsl(112.5, 100%, 50%)
+  33%
+    border-color: hsl(123.75, 100%, 50%)
+  36%
+    border-color: hsl(135, 100%, 50%)
+  39%
+    border-color: hsl(146.25, 100%, 50%)
+  44%
+    border-color: hsl(157.5, 100%, 50%)
+  47%
+    border-color: hsl(168.75, 100%, 50%)
+  50%
+    border-color: hsl(180, 100%, 50%)
+  50%
+    border-color: hsl(191.25, 100%, 50%)
+  53%
+    border-color: hsl(202.5, 100%, 50%)
+  57%
+    border-color: hsl(213.75, 100%, 50%)
+  60%
+    border-color: hsl(225, 100%, 50%)
+  63%
+    border-color: hsl(236.25, 100%, 50%)
+  66%
+    border-color: hsl(247.5, 100%, 50%)
+  69%
+    border-color: hsl(258.75, 100%, 50%)
+  72%
+    border-color: hsl(270, 100%, 50%)
+  76%
+    border-color: hsl(281.25, 100%, 50%)
+  80%
+    border-color: hsl(292.5, 100%, 50%)
+  83%
+    border-color: hsl(303.75, 100%, 50%)
+  86%
+    border-color: hsl(315, 100%, 50%)
+  90%
+    border-color: hsl(326.25, 100%, 50%)
+  94%
+    border-color: hsl(337.5, 100%, 50%)
+  97%
+    border-color: hsl(348.75, 100%, 50%)
+  100%
+    border-color: hsl(0, 100%, 50%)
+
+@-o-keyframes rainbow
+  0%
+    border-color: hsl(11.25, 100%, 50%)
+  4%  
+    border-color: hsl(22.5, 100%, 50%)
+  6%  
+    border-color: hsl(33.75, 100%, 50%)
+  10%
+    border-color: hsl(45, 100%, 50%)
+  13%
+    border-color: hsl(56.25, 100%, 50%)
+  16%
+    border-color: hsl(67.5, 100%, 50%)
+  20%
+    border-color: hsl(78.75, 100%, 50%)
+  23%
+    border-color: hsl(90, 100%, 50%)
+  26%
+    border-color: hsl(101.25, 100%, 50%)
+  30%
+    border-color: hsl(112.5, 100%, 50%)
+  33%
+    border-color: hsl(123.75, 100%, 50%)
+  36%
+    border-color: hsl(135, 100%, 50%)
+  39%
+    border-color: hsl(146.25, 100%, 50%)
+  44%
+    border-color: hsl(157.5, 100%, 50%)
+  47%
+    border-color: hsl(168.75, 100%, 50%)
+  50%
+    border-color: hsl(180, 100%, 50%)
+  50%
+    border-color: hsl(191.25, 100%, 50%)
+  53%
+    border-color: hsl(202.5, 100%, 50%)
+  57%
+    border-color: hsl(213.75, 100%, 50%)
+  60%
+    border-color: hsl(225, 100%, 50%)
+  63%
+    border-color: hsl(236.25, 100%, 50%)
+  66%
+    border-color: hsl(247.5, 100%, 50%)
+  69%
+    border-color: hsl(258.75, 100%, 50%)
+  72%
+    border-color: hsl(270, 100%, 50%)
+  76%
+    border-color: hsl(281.25, 100%, 50%)
+  80%
+    border-color: hsl(292.5, 100%, 50%)
+  83%
+    border-color: hsl(303.75, 100%, 50%)
+  86%
+    border-color: hsl(315, 100%, 50%)
+  90%
+    border-color: hsl(326.25, 100%, 50%)
+  94%
+    border-color: hsl(337.5, 100%, 50%)
+  97%
+    border-color: hsl(348.75, 100%, 50%)
+  100%
+    border-color: hsl(0, 100%, 50%)
+
+@keyframes rainbow
+  0%
+    border-color: hsl(11.25, 100%, 50%)
+  4%  
+    border-color: hsl(22.5, 100%, 50%)
+  6%  
+    border-color: hsl(33.75, 100%, 50%)
+  10%
+    border-color: hsl(45, 100%, 50%)
+  13%
+    border-color: hsl(56.25, 100%, 50%)
+  16%
+    border-color: hsl(67.5, 100%, 50%)
+  20%
+    border-color: hsl(78.75, 100%, 50%)
+  23%
+    border-color: hsl(90, 100%, 50%)
+  26%
+    border-color: hsl(101.25, 100%, 50%)
+  30%
+    border-color: hsl(112.5, 100%, 50%)
+  33%
+    border-color: hsl(123.75, 100%, 50%)
+  36%
+    border-color: hsl(135, 100%, 50%)
+  39%
+    border-color: hsl(146.25, 100%, 50%)
+  44%
+    border-color: hsl(157.5, 100%, 50%)
+  47%
+    border-color: hsl(168.75, 100%, 50%)
+  50%
+    border-color: hsl(180, 100%, 50%)
+  50%
+    border-color: hsl(191.25, 100%, 50%)
+  53%
+    border-color: hsl(202.5, 100%, 50%)
+  57%
+    border-color: hsl(213.75, 100%, 50%)
+  60%
+    border-color: hsl(225, 100%, 50%)
+  63%
+    border-color: hsl(236.25, 100%, 50%)
+  66%
+    border-color: hsl(247.5, 100%, 50%)
+  69%
+    border-color: hsl(258.75, 100%, 50%)
+  72%
+    border-color: hsl(270, 100%, 50%)
+  76%
+    border-color: hsl(281.25, 100%, 50%)
+  80%
+    border-color: hsl(292.5, 100%, 50%)
+  83%
+    border-color: hsl(303.75, 100%, 50%)
+  86%
+    border-color: hsl(315, 100%, 50%)
+  90%
+    border-color: hsl(326.25, 100%, 50%)
+  94%
+    border-color: hsl(337.5, 100%, 50%)
+  97%
+    border-color: hsl(348.75, 100%, 50%)
+  100%
+    border-color: hsl(0, 100%, 50%)
+
+
 // Mobile - Fonts, Margin, Padding, Footer
 
 @media (max-width: $standard-width)
@@ -287,36 +668,58 @@ h2
   .highlight, .cta-box
     margin: 0 1rem
 
-  .mdj-projects
-    &--project
+  .mdj-projects, .mdj-content
+    &--project, &--row
       flex-direction: column
       margin-top: 2rem
-      &__image
+      &__image, &__cta-container
         width: auto
         padding: 1rem
         img
           width: 100%
-      &__description
+      &__description, &__lead
         width: 100%
         padding: 0
 
-  .mdj-card
-    margin-left: 1rem
-    margin-right: 1rem
-
 @media (max-width: 32em)
 
+  header[role="banner"]
+    padding: 0
+    
   .standard-width, .wide-width
     margin: 2em auto
 
   .mdj-header
-    margin-bottom: 2rem
+    flex-direction: column
+    margin-bottom: 0
     
   .mdj-card
-    margin-bottom: 2em
+    margin-bottom: 0
+    margin-left: 0
     padding: 1rem
     &--desc
       margin-left: 1rem
+
+  .mdj-menu
+    margin: 0 1rem 1rem 1rem
+    padding: 0.75rem 1rem
+    border-radius: 1rem
+    &__about::before
+      padding-right: 0
+    &__portfolio::before
+      padding-right: 0
+    &__articles::before
+      padding-right: 0
+    li
+      margin-right: 1rem
+
+  .mdj-dialog
+    margin-top: 0.5rem
+
+  .mdj-projects, .mdj-content
+    &--project, &--row
+      &__lead
+        line-height: 1.8
 
   .mdj-post
     &__h2
@@ -351,9 +754,21 @@ h2
   .mdj-card
     &--photo
       margin: 0 auto
+      margin-top: 1rem
+      min-width: 80px
+      max-width: 80px
+      height: 80px
     &--desc
       margin: 1em 0 0 0
       text-align: center
 
+  .mdj-header
+    &--subtitle
+      text-align: center
+
   p
     text-align: left
+
+  .mdj-dialog
+    &--arrow
+      display: none

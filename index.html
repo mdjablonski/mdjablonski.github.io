@@ -9,29 +9,43 @@ redirect_from: /about-me/
 
 {% include medium-img.html path="/assets/about-1.jpg" description="I'm talking about designing Pirx the Pilot" %}
 
-<section class="standard-width">
-    <p>Hi, my name is <b>Marcin Dominik Jabłoński</b> and I work as a Product & UX designer.</p>
-    <p>As a designer I support my clients in the implementation of digital projects in the field of design, design strategy, user experience, and in creating a product vision, in order to achieve their design goals.</p>
-    <!-- <p>Not to sound lofty, but I think that design is not the solution to all problems and that it is not the most important part of a product or service - in this way it often downgrades the business aspect of a project. So providing support, I try to focus on areas where the design aspect is relevant.</p> -->
-
-    <div class="cta-box" ><a href="{{ site.baseurl }}/ux-portfolio/">Check my UX portfolio</a></div>
-
-    <!-- <p>Below you can find an outline of my work experience.</p> -->
-
-    <h3>Designer and consultant</h3>
-    <p>Consulted on interaction design for many companies including:</p>
+<section class="medium-width mdj-content">
+    <div class="mdj-content--row">
+        <div class="mdj-content--row__description">
+            <p>Hello! 👋 My name is <b>Marcin Dominik Jabłoński</b> and I'm a seasoned UX designer who supports startups at an early stage and large companies in their long-term projects, as well as creates his own products.</p>
+            <p>As a designer I support my clients in the implementation of digital projects in the field of design:</p>
+            <ul>
+                <li>user experience design</li>
+                <li>design strategy</li>
+                <li>product vision and MVP</li>
+                <li>analysis and optimization</li>
+            </ul>
+        </div>
+        <div class="mdj-content--row__cta-container highlight">
+            <div class="mdj-outer-cta-box">
+                <div class="cta-box">
+                    <p>Looking for a designer for your next project?</p>
+                    <a href="/ux-portfolio/">Brief me via LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mdj-content--row">
+        <div class="mdj-content--row__description">
+            <h3>🎤 Speaker and mentor</h3>
+            <p><a href="https://www.facebook.com/uxuispacewroclaw/">UX/UI Space Wrocław</a> - speak about design approach to tiny, limited interfaces. Full record of the speech is avalaible on <a href="https://www.youtube.com/watch?v=QcMmxhGIh8k">Youtube</a>.</p>
+            <p><a href="https://www.space3.ac">Space3ac</a> – participated as a UX mentor (one-to-one consulting) for startups which use satellite technologies to create solutions for the intermodal transportation sector.</p>
+        </div>
+        <div class="mdj-content--row__description">
+            <h3>🚀 Creator</h3>
+            <p><a href="https://pirxfpv.com">Pirx The Pilot</a> – an FPV (first-person view) software that provides the user (pilot) with the best possible experience throughout the process of search, signal reception, and configuration.</p>
+            <p><a href="https://www.facebook.com/GorskieWycieczki/">Górskie Wycieczki</a> – an interactive tool for planning a day trip, based on avarage time to walk and sharing the routes with other participans. Project abandoned.</p>
+        </div>    
+    </div>
 </section>
-
-{% include medium-img.html path="/assets/logos.jpg" srcset="/assets/logos.jpg 960w, /assets/logos-640.jpg 640w" %}
-
-<section class="standard-width">
-    <h3>Speaker and mentor</h3>
-    <p><a href="https://www.facebook.com/uxuispacewroclaw/">UX/UI Space Wrocław</a> - speak about design approach to tiny, limited interfaces. Full record of the speech is avalaible on <a href="https://www.youtube.com/watch?v=QcMmxhGIh8k">Youtube</a>.</p>
-    <p><a href="https://www.space3.ac">Space3ac</a> – participated as a UX mentor (one-to-one consulting) for startups which use satellite technologies to create solutions for the intermodal transportation sector</p>
-    <br />
-    <h3>Creator</h3>
-    <p><a href="https://pirxfpv.com">Pirx The Pilot</a> – an FPV (first-person view) software that provides the user (pilot) with the best possible experience throughout the process of search, signal reception, and configuration.</p>
-    <p><a href="https://www.facebook.com/GorskieWycieczki/">Górskie Wycieczki</a> – an interactive tool for planning a day trip, based on avarage time to walk and sharing the routes with other participans. Project abandoned.</p>
+<section class="medium-width">
+    {% include medium-img.html path="/assets/logos.jpg" srcset="/assets/logos.jpg 960w, /assets/logos-640.jpg 640w" %}
+    <figcaption>
+        <small>Consulted on interaction design for many companies.</small>
+    </figcaption>
 </section>
-
-{% include contact.html %}
