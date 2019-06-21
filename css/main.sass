@@ -205,25 +205,22 @@ header[role="banner"]
     text-decoration: none
     color: $link-blue
     font-weight: 500
+  &__about span
+    background: url(/assets/emoji-about.svg)
+  &__portfolio span
+    background: url(/assets/emoji-portfolio.svg)
+  &__articles span
+    background: url(/assets/emoji-articles.svg)
   &__about span, &__portfolio span, &__articles span
     display: inline-block
     position: relative
     padding-right: 1em
     width: 27px
-    height: 22px
-    top: 0.2rem
-  &__about span
-    background: url(/assets/emoji-about.svg)
+    height: 29px
+    top: 0.4rem
     background-position: 50% 0
-    background-repeat: no-repeat
-  &__portfolio span
-    background: url(/assets/emoji-portfolio.svg)
-    background-position: 50% 0
-    background-repeat: no-repeat
-  &__articles span
-    background: url(/assets/emoji-articles.svg)
-    background-position: 50% 0
-    background-repeat: no-repeat
+    background-size: 100%
+    background-repeat: round
 
 
 .mdj-title
@@ -238,7 +235,7 @@ header[role="banner"]
     position: relative
     width: 0
     height: 0
-    top: -2px
+    top: 5px
     left: 26px
     border-left: 10px solid transparent
     border-right: 10px solid transparent
@@ -407,11 +404,12 @@ header[role="banner"]
   position: relative
   padding: 0 0.5em !important
   width: 27px
-  height: 22px
-  top: 0.2rem
+  height: 29px
+  top: 0.5rem
   background: url(/assets/emoji-hello.svg)
-  background-position: 50% 30%
-  background-repeat: no-repeat
+  background-position: 50% 0
+  background-size: 100%
+  background-repeat: round
 
 
 // Rainbow
